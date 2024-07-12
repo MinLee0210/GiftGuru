@@ -1,0 +1,25 @@
+mindsdb: 
+  url: http://127.0.0.1:47334
+  project: giftguru
+  engine: minds_endpoint_engine
+  handler: minds_endpoint
+  model_name: mistral-7b
+  agent_name: minds_agent
+
+engine: 
+  scraper:
+    llm: 
+      model: gpt-3.5-turbo
+      api_key: MINDSDB_API_KEY
+      temperature: 0.8
+      base_url: https://llm.mdb.ai/
+    embedding: 
+      model: ollama/nomic-embed-text
+      base_url: http://localhost:11434
+    verbose: True
+  search: 
+    max_results: 5
+    search_depth: basic                     # [basic, advanced] for relevant search.
+    include_answer: True                    # Include a list of query related images in the response
+    include_images: False                   # Include a short answer to original query in the search results
+    include_raw_content: False              # Include cleaned and parsed HTML of each site search results
