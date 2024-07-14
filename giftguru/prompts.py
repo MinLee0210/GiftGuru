@@ -4,5 +4,5 @@ MINDS_AGENT_SUFFIX = "Here are some additional information that can help your re
     ###Instruction\
     \nMake it in 1 pargraph.\
     \nBe clear, concise and creative!\
-    \nSuggested ideas must be listed in bullet points.\
+    \nNo numeric points, just bullet points\
     "
