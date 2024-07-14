@@ -110,7 +110,7 @@ streamlit run app.py
 ![](./static/gg_example.png)
 
 + **Video:**
-![GiftGuru](https://youtu.be/RXT6hSo3L6A)
+Please visit: [GiftGuru](https://youtu.be/RXT6hSo3L6A)
 
 ## 🧑‍💻 Contact
 
