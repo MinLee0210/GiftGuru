@@ -110,7 +110,7 @@ streamlit run app.py
 ![](./static/gg_example.png)
 
 + **Video:**
-[![GiftGuru](https://makeagif.com/i/BJJ4k6)](https://youtu.be/RXT6hSo3L6A)
+[![GiftGuru](https://makeagif.com/i/BJJ4k6.gif)](https://youtu.be/RXT6hSo3L6A)
 
 ## 🧑‍💻 Contact
 
