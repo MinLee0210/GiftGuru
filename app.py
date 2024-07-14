@@ -78,7 +78,7 @@ GiftGuru is your AI-powered gift-giving companion, here to help you find the per
 
 ## 🤖 Technologies Used
 
-* **MindDB:** Our intelligent gift-giving agent is built on MindDB, a powerful AI engine that enables us to understand complex relationships and generate insightful recommendations.
+* **MindsDB:** Our intelligent gift-giving agent is built on MindsDB, a powerful AI engine that enables us to understand complex relationships and generate insightful recommendations.
 * **Tavily:** We leverage Tavily's expertise in personalized recommendations to ensure our suggestions are truly relevant and engaging.
 * **ScrapeGraphAI:** Our data scraping engine, powered by ScrapeGraphAI, keeps us up-to-date on the latest trends, reviews, and pricing information across a vast range of products and services.
 
