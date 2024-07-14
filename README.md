@@ -4,7 +4,7 @@
 <h1 align="center">GiftGuru</h1>
 
 <p align="center">
-  <em>Makes you gifts have more meanings</em>
+  <em>Makes you gifts more meaningful</em>
 </p>
 
 ---
