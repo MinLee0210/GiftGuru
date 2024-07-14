@@ -1,0 +1,7 @@
+mindsdb_sdk==2.4.4
+nest_asyncio==1.6.0
+python-dotenv==1.0.1
+PyYAML==6.0.1
+scrapegraphai==1.9.1
+streamlit==1.34.0
+tavily_python==0.3.3

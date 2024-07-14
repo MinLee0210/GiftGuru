@@ -2,13 +2,13 @@ class MindsAgent:
     def __init__(self, server, config, api_key): 
         self.project = server.project
         self.server = server.server
-        print(self.server.list_projects())
         self.config = config
         self.is_engine = self.__setup_engine(api_key)
         self.model = self.__setup_model()
 
     def __setup_engine(self, api_key): 
         try: 
+            # print('create engine')
             self.server.ml_engines.create(
                 name=self.config['engine'],  
                 handler=self.config['handler'], 
@@ -19,11 +19,12 @@ class MindsAgent:
             return True
         except: 
             engine = self.server.ml_engines.list()
-            print(engine)
+            # print(engine)
             return False
             
     def __setup_model(self): 
         try: 
+            # print("create model")
             model = self.project.models.create(name=self.config['agent_name'],
                                                predict='completion',
                                                 engine=self.config['engine'],
@@ -31,6 +32,7 @@ class MindsAgent:
                                                 model_name=self.config['model_name'],
                                                 )
         except: 
+            # print('getmodel')
             model = self.project.models.get(name=self.config['agent_name'])
         return model
     
