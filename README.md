@@ -105,10 +105,12 @@ streamlit run app.py
 
 ## 👾 Gallery
 
-+ **Result:**
++ **Image:**
 
 ![](./static/gg_example.png)
 
++ **Video:**
+[![GiftGuru](https://makeagif.com/i/BJJ4k6)](https://youtu.be/RXT6hSo3L6A)
 
 ## 🧑‍💻 Contact
 
