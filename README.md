@@ -13,8 +13,8 @@
   <summary>Table of Contents</summary>
 
 - [📍 Overview](#-overview)
-- [🧩 Features](#-features)
 - [🤖Technologies Used](#-technologies-used)
+- [🧩 Features](#-features)
 - [🎯 Workflow](#-workflow)
 - [🚀 Usage](#-getting-started)
 - [👾 Gallery](#-gallery)
